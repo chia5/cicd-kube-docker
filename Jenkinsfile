@@ -14,11 +14,11 @@ pipeline {
 
     stages{
 
-        /*stage('Fetch Code') {
+        stage('Fetch Code') {
             steps {
-                git branch: 'paac', url: 'https://github.com/devopshydclub/vprofile-project.git'
+                git branch: 'main', url: 'https://github.com/chia5/cicd-kube-docker.git'
             }
-        }*/
+        }
         stage('BUILD'){
             steps {
                 sh 'mvn clean install -DskipTests'
