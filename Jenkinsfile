@@ -7,7 +7,7 @@ pipeline {
     }
 */
     environment {
-        registry = "kube-chi/vprodockapp"
+        registry = "chash07/vprodockapp"
         registryCredential = "dockerhub"
         //ARTVERSION = "${env.BUILD_ID}"
     }
