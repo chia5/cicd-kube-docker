@@ -1,6 +1,6 @@
 pipeline {
 
-    agent ubuntu
+	agent {label 'ubuntu'}
 /*
 	tools {
         maven "maven3"
